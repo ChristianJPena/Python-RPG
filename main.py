@@ -6,7 +6,7 @@
 
 # Extra Credit Points: 5
 
-# You are Hercules, the greatest of the Greek Heroes! You have been tasked by King Eurystheus to slay the vicious Nemean Lion, defeat the impossible nine-headed Lernaean Hydra, and capture the guard dog of the underworld—Cerberus.
+# DONE.You are Hercules, the greatest of the Greek Heroes! You have been tasked by King Eurystheus to slay the vicious Nemean Lion, defeat the impossible nine-headed Lernaean Hydra, and capture the guard dog of the underworld—Cerberus.
 
 # Features:
 
@@ -33,6 +33,22 @@ import random
 
 def welcome_screen ():
     print("\nWelcome to...\nPython \n¡RPG!\n")
-    print("You are Hercules, the greatest of the Greek Heroes! \n\nYou have been tasked by King Eurystheus to slay the vicious Nemean Lion, defeat the impossible nine-headed Lernaean Hydra, and capture the guard dog of the underworld—Cerberus.\n")
-
+    print("You are Hercules, the greatest of the Greek Heroes! \n\nYou have been tasked by 👑King Eurystheus👑 to: \n\nslay the vicious \n🦁Nemean Lion🦁 \n\ndefeat the impossible nine-headed \n🐍Lernaean Hydra🐍 \n\nUltimately, capturing the guard dog of the underworld \n🐕Cerberus🐕\n")
+    print("¡Lets begin your quest!\n")
 welcome_screen()
+
+full_health = 100
+enemy_health = 120
+user_punch = 15
+user_kick = 20
+user_bite = 50
+
+
+
+
+# def Attack():
+#     ~
+
+
+# def RunGame(): #Master Function
+#     Attack()
